@@ -341,8 +341,9 @@ After you define and validate the service in YAML format, you are ready to add y
 
 **Follow these steps:**
 
-1. Locate the Zowe instance directory. The Zowe instance directory is chosen during Zowe configuration.
-   The initial location of the directory is in the `zowe-install.yaml` file in the variable `install:instanceDir`.
+1. Locate the Zowe instance directory. The Zowe instance directory is chosen during Zowe instance configuration.
+   The initial location of the directory is specified in `zowe-configure-instance.sh -c ${zoweInstanceDir}` command where 
+   the `${zoweInstanceDir}` denotes the instance directory.
 
     **Note:** We use the `${zoweInstanceDir}` symbol in following instructions.
 
