@@ -342,18 +342,18 @@ After you define and validate the service in YAML format, you are ready to add y
 **Follow these steps:**
 
 1. Locate the Zowe instance directory. The Zowe instance directory is chosen during Zowe instance configuration.
-   The initial location of the directory is specified in `zowe-configure-instance.sh -c ${zoweInstanceDir}` command where 
-   the `${zoweInstanceDir}` denotes the instance directory.
+   The initial location of the directory is specified in the command `zowe-configure-instance.sh -c ${zoweInstanceDir}`, where 
+   `${zoweInstanceDir}` denotes the instance directory.
 
-    **Note:** We use the `${zoweInstanceDir}` symbol in following instructions.
+    **Note:** The `${zoweInstanceDir}` symbol is used to refer to the instance directory in the following instructions.
 
 2. Copy your YAML file to the `${zoweInstanceDir}/workspace/api-mediation/api-defs` directory. 
 
-    **Note:** The `${zoweInstanceDir}/workspace/api-mediation/api-defs` directory is created the first time that Zowe starts, so if you have not started Zowe yet this directory might be missing.
+    **Note:** The `${zoweInstanceDir}/workspace/api-mediation/api-defs` directory is created the first time that Zowe starts, so if you have not started Zowe yet, this directory might be missing.
 
 3. Run your application.
 
-4. Restart Zowe runtime or follow steps in section [(Optional) Reload the services definition after the update when the API Mediation Layer is already started](#optional-reload-the-services-definition-after-the-update-when-the-api-mediation-layer-is-already-started).
+4. Restart Zowe runtime or follow the steps in section [(Optional) Reload the services definition after the update when the API Mediation Layer is already started](#optional-reload-the-services-definition-after-the-update-when-the-api-mediation-layer-is-already-started).
 
 5.  Go to the following URL to reach the API Gateway (default port 7554) and see the paths that are routed by the API Gateway:
 
